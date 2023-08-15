@@ -1,5 +1,5 @@
 class Pet < ApplicationRecord
-  SPECIES = ["cat" "mice", "dog", "snake", "monkey", "dinosaur"]
+  SPECIES = ["cat", "mice", "dog", "snake", "monkey", "dinosaur"]
   validates :name, presence: true
   validates :color, presence: true
   validates :address, presence: true
